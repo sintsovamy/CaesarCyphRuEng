@@ -12,5 +12,4 @@ for c in text:
     elif c >= "a" and c <= "z":
       c = chr(ord("a") + (ord(c) + rot) % ord ("a") % 26)
   cyphertext +=c
-cyphertext = input()
 print(cyphertext)
