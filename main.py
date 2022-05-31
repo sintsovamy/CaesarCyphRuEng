@@ -13,5 +13,3 @@ for c in text:
       c = chr((ord(c) + rot - ord("a")) % 26 + ord("a"))
   cyphertext +=c
 print(cyphertext)
-print(chr(ord("а") + ((ord("ж") + rot) % ord ("а")) % 32))
-print((ord("ж") + rot) % ord ("а") % 32)
